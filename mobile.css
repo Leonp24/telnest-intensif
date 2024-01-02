@@ -1,0 +1,285 @@
+@media (max-width: 992px) {
+
+    /* navbar */
+    .navbar-brand img {
+        width: 120px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 0;
+    }
+
+    .navbar-nav .btn {
+        width: 130px;
+        margin: auto;
+    }
+
+    /* sudah login */
+    #logged .navbar-brand img {
+        width: 120px;
+    }
+
+    #logged .navbar-nav {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #logged .navbar-nav .nav-link {
+        margin-right: 0;
+    }
+
+    #logged .dropdown {
+        margin-left: 0;
+    }
+
+    #logged .dropdown .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    /* navbar */
+
+    /* hero */
+    #hero .deskripsi {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #hero .deskripsi p {
+        width: auto;
+    }
+
+    #hero img {
+        width: 100%;
+    }
+
+    /* hero */
+
+    /* hotel */
+    #hotel {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #hotel .more {
+        display: flex;
+        justify-content: center;
+    }
+
+    #hotel .card {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #hotel .card small {
+        color: black;
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+    #hotel .card .btn {
+        width: 100%;
+    }
+
+    /* hotel */
+
+    /* kota */
+    #kota {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #kota .more {
+        display: flex;
+        justify-content: center;
+    }
+
+    #kota .card {
+        width: 100%;
+        border: none;
+        margin-top: 20px;
+    }
+
+    #kota .card .card-title {
+        position: absolute;
+        bottom: 15px;
+    }
+
+    /* kota */
+
+    /* promo */
+    #promo img {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    /* promo */
+
+    /* artikel */
+    #artikel {
+        margin-top: 100px;
+    }
+
+    #artikel img {
+        width: 100%;
+    }
+
+    #artikel .deskripsi {
+        margin-top: 50px;
+    }
+
+    #artikel .deskripsi img {
+        width: 100%;
+    }
+
+    /* artikel */
+
+    /* footer */
+    footer {
+        margin-top: 100px;
+        background-color: #222;
+        height: 50px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* footer */
+
+    /* daftar */
+    #daftar {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #daftar h1 {
+        margin-top: 20px;
+    }
+
+    #daftar img {
+        width: 100%;
+    }
+
+    #daftar form label {
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    #daftar .btn {
+        width: 130px;
+    }
+
+    /* daftar */
+
+    /* login */
+    #login {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #login h1 {
+        margin-top: 25px;
+    }
+
+    #login img {
+        width: 100%;
+    }
+
+    #login form label {
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    #login .btn {
+        width: 130px;
+    }
+
+    #login .forgot {
+        display: flex;
+        justify-content: end;
+        text-decoration: none;
+    }
+
+    /* login */
+
+    /* jelajahi */
+    #jelajahi {
+        text-align: center;
+    }
+    /* jelajahi */
+
+    /* detail */
+    .breadcrumb a {
+        display: flex;
+        align-items: center;
+    }
+
+    #detail .deskripsi {
+        text-align: center;
+    }
+    
+    #detail .fasilitas h5 {
+        display: flex;
+        align-items: center;
+    }
+
+    /* detail */
+
+    /* room */
+    #room {
+        text-align: center;
+    }
+    /* room */
+
+    /* order */
+    #order form label {
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    /* order */
+
+    
+    /* sukses */
+    #sukses .deskripsi {
+        margin-top: 50px;
+    }
+
+    #sukses .deskripsi img {
+        width: 150px;
+        margin-top: 0;
+    }
+
+    #sukses .deskripsi .btn {
+        width: 50%;
+        margin-right: 20px;
+    }
+
+    #sukses img {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    /* sukses */
+
+    /* cek order */
+    #cekorder {
+        text-align: center;
+    }
+
+    #cekorder .nav-pills {
+        display: flex;
+        justify-content: center;
+    }
+    /* cek order */
+}

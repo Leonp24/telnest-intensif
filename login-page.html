@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- bootstrap css & js -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./booking-page.html">Booking</a>
+                    <a class="nav-link" href="./lokasi-page.html">Lokasi</a>
+                    <a class="btn btn-outline-primary" href="./daftar-page.html">Daftar</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- daftar -->
+    <section id="login">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Masuk untuk mulai<br>booking penginapan!</h1>
+                    <p>Masuk untuk mulai cari hotel.</p>
+
+                    <!-- form -->
+                    <form action="">
+                        
+                        <div class="row">
+                            <div class="col">
+                                <label for="email">Email</label>
+                                <input type="text" class="form-control" placeholder="Masukkan Email">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" placeholder="Masukkan Password">
+                                <a class="forgot" href="#">Lupa password?</a>
+                            </div>
+                        </div>
+                    </form>
+                    <a href="./home-page.html" class="btn btn-primary mt-5">Masuk</a>
+                    <p class="mt-5">Sudah punya akun? <a href="./daftar-page.html">Daftar</a></p>
+                    <!-- form -->
+                </div>
+                <div class="col-lg-6">
+                    <img src="./assets/img-masuk.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- daftar -->
+
+    <!-- footer -->
+    <footer>
+        <h6>&copy; Copyright Reserved, Telnest 2023</h6>
+    </footer>
+    <!-- footer -->
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Hotel</title>
+
+    <!-- bootstrap css & js -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav id="logged" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./booking-page.html">Booking</a>
+                    <a class="nav-link" href="./lokasi-page.html">Lokasi</a>
+                    <a class="nav-link" href="./cek-page.html">Cek Order</a>
+                </div>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <h5 class="me-3">Hi, Adam</h5>
+                        <img src="./assets/ic-profil.png" alt="">
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./index.html">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- detail -->
+    <section id="detail">
+        <div class="container">
+            <!-- breadcrumb -->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mt-5">
+                    <li class="breadcrumb-item"><a href="#"><iconify-icon
+                                icon="iconamoon:arrow-left-2"></iconify-icon>Kembali</a></li>
+                    <li class="breadcrumb-item" aria-current="page"><b>Detail Hotel</b></li>
+                </ol>
+            </nav>
+            <!-- breadcrumb -->
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="w-100" src="./assets/hotel1.png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="deskripsi mt-5">
+                        <h1>Amaris Hotel Palembang</h1>
+                        <p>Jalan Inspektur Marzuki</p>
+                        <p><iconify-icon icon="material-symbols:star" style="color: #e9ed10;"></iconify-icon> 5.0 (100)
+                        </p>
+
+                        <h5 class="mt-3">Tentang Hotel</h5>
+                        <p>Sorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                            interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
+                            conubia nostra, per inceptos himenaeos.</p>
+                    </div>
+                    <a href="./room-page.html" class="btn btn-primary w-100 mt-3">Pesan Sekarang</a>
+                </div>
+            </div>
+
+            <div class="fasilitas mt-5">
+                <h5>Fasilitas</h5>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h5><iconify-icon icon="ri:hotel-line"></iconify-icon> Layanan Hotel</h5>
+                        <ul>
+                            <li>Bellhop</li>
+                            <li>Concierge</li>
+                            <li>24-hour receptionist</li>
+                            <li>24-hour security</li>
+                            <li>Laundry service</li>
+                            <li>Luggage storage</li>
+                            <li>Multilingual staff</li>
+                            <li>Newspaper in lobby</li>
+                            <li>Wedding service</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h5><iconify-icon icon="icon-park-outline:hotel-please-clean"></iconify-icon> Fasilitas Publik
+                        </h5>
+                        <ul>
+                            <li>Bellhop</li>
+                            <li>Concierge</li>
+                            <li>24-hour receptionist</li>
+                            <li>24-hour security</li>
+                            <li>Laundry service</li>
+                            <li>Luggage storage</li>
+                            <li>Multilingual staff</li>
+                            <li>Newspaper in lobby</li>
+                            <li>Wedding service</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h5><iconify-icon icon="game-icons:gym-bag"></iconify-icon> Fasilitas Lainnnya</h5>
+                        <ul>
+                            <li>Bellhop</li>
+                            <li>Concierge</li>
+                            <li>24-hour receptionist</li>
+                            <li>24-hour security</li>
+                            <li>Laundry service</li>
+                            <li>Luggage storage</li>
+                            <li>Multilingual staff</li>
+                            <li>Newspaper in lobby</li>
+                            <li>Wedding service</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- detail -->
+
+    <!-- footer -->
+    <footer>
+        <h6>&copy; Copyright Reserved, Telnest 2023</h6>
+    </footer>
+    <!-- footer -->
+</body>
+
+</html>

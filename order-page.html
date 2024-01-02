@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajukan Pemesanan</title>
+
+    <!-- bootstrap css & js -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav id="logged" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./booking-page.html">Booking</a>
+                    <a class="nav-link" href="./lokasi-page.html">Lokasi</a>
+                    <a class="nav-link" href="./cek-page.html">Cek Order</a>
+                </div>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <h5 class="me-3">Hi, Adam</h5>
+                        <img src="./assets/ic-profil.png" alt="">
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./index.html">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <section id="order">
+        <div class="container">
+            <!-- breadcrumb -->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mt-5">
+                    <li class="breadcrumb-item"><a href="#"><iconify-icon
+                                icon="iconamoon:arrow-left-2"></iconify-icon>Kembali</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><a href="./detail-page.html">Detail Hotel</a>
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page"><a href="./room-page.html">Pilih Kamar</a></li>
+                    <li class="breadcrumb-item" aria-current="page"><b>Ajukan Pemesanan</b></li>
+                </ol>
+            </nav>
+            <!-- breadcrumb -->
+
+            <!-- informasi pemesan -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4>Informasi Anda</h4>
+
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label for="namalengkap">Nama Lengkap</label>
+                                <input type="text" class="form-control" placeholder="Masukkan Nama Lengkap">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="nomortelepon">Nomor Telepon</label>
+                                <input type="text" class="form-control" placeholder="Masukkan Nomor Telepon">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label for="email">Email</label>
+                                <input type="text" class="form-control" placeholder="Masukkan Email">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="password">Buat Password</label>
+                                <div class="dropdown">
+                                    <button class="btn btn-outline-primary w-100 text-start dropdown-toggle"
+                                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Metode Pembayaran
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Transfer Bank</a></li>
+                                        <li><a class="dropdown-item" href="#">Ovo</a></li>
+                                        <li><a class="dropdown-item" href="#">Gopay</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="form-check mt-3">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Data sudah benar
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!-- informasi pemesan -->
+
+            <!-- detail biaya -->
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <h4>Detail Biaya</h4>
+
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label for="checkin">Check In</label>
+                                <input type="date" name="checkin" id="checkin" class="form-control">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="checkout">Check Out</label>
+                                <input type="date" name="checkout" id="checkout" class="form-control">
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="card mb-3 mt-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/kamar1.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Deluxe Room</h5>
+                                    
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <h6>Check In</h6>
+                                            <h5 class="text-primary">21/12/2023</h5>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <h6>Check Out</h6>
+                                            <h5 class="text-primary">22/12/2023</h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <h6>Biaya</h6>
+                                            <h5 class="text-primary">Rp 200.000</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="./sukses-page.html" class="btn btn-primary w-100">Pesan Sekarang</a>
+                    <p class="text-secondary">Pastikan semua data benar sebelum klik tombol pesan.</p>
+                </div>
+            </div>
+            <!-- detail biaya -->
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- footer -->
+    <footer>
+        <h6>&copy; Copyright Reserved, Telnest 2023</h6>
+    </footer>
+    <!-- footer -->
+</body>
+
+</html>

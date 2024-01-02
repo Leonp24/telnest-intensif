@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilih Kamar</title>
+
+    <!-- bootstrap css & js -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" <!-- iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav id="logged" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./booking-page.html">Booking</a>
+                    <a class="nav-link" href="./lokasi-page.html">Lokasi</a>
+                    <a class="nav-link" href="./cek-page.html">Cek Order</a>
+                </div>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <h5 class="me-3">Hi, Adam</h5>
+                        <img src="./assets/ic-profil.png" alt="">
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./index.html">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <section id="room">
+        <div class="container">
+
+            <!-- breadcrumb -->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mt-5">
+                    <li class="breadcrumb-item"><a href="#"><iconify-icon
+                                icon="iconamoon:arrow-left-2"></iconify-icon>Kembali</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><a href="./detail-page.html">Detail Hotel</a>
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page"><b>Pilih Kamar</b></li>
+                </ol>
+            </nav>
+            <!-- breadcrumb -->
+
+            <div class="row mt-5">
+                <h5>Kamar tersedia di Amaris Hotel Palembang</h5>
+                <div class="col-lg-6">
+                    <div class="card mb-3 mt-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/kamar1.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Deluxe Room</h5>
+                                    <p class="card-text">Non Refundable, Non Smoking Area, Free Wifi, Bathtub, Air Conditioning, Refrigerator, Free Breakfast</p>
+                                    <a href="./order-page.html" class="btn btn-primary">Pilih Kamar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mb-3 mt-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/kamar2.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Junior Suite Room</h5>
+                                    <p class="card-text">Non Refundable, Non Smoking Area, Free Wifi, Bathtub, Air Conditioning, Refrigerator, Free Breakfast</p>
+                                    <a href="./order-page.html" class="btn btn-primary">Pilih Kamar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mb-3 mt-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/kamar3.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Executive Suite Room</h5>
+                                    <p class="card-text">Non Refundable, Non Smoking Area, Free Wifi, Bathtub, Air Conditioning, Refrigerator, Free Breakfast</p>
+                                    <a href="./order-page.html" class="btn btn-primary">Pilih Kamar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mb-3 mt-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/kamar4.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Presidential Room</h5>
+                                    <p class="card-text">Non Refundable, Non Smoking Area, Free Wifi, Bathtub, Air Conditioning, Refrigerator, Free Breakfast</p>
+                                    <a href="./order-page.html" class="btn btn-primary">Pilih Kamar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <h6>&copy; Copyright Reserved, Telnest 2023</h6>
+    </footer>
+    <!-- footer -->
+</body>
+
+</html>

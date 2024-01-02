@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Booking</title>
+
+    <!-- bootstrap css & js -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav id="logged" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./booking-page.html">Booking</a>
+                    <a class="nav-link" href="./lokasi-page.html">Lokasi</a>
+                    <a class="nav-link" href="./cek-page.html">Cek Order</a>
+                </div>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <h5 class="me-3">Hi, Adam</h5>
+                        <img src="./assets/ic-profil.png" alt="">
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./index.html">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- form-jelajahi -->
+    <section id="jelajahi">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <h1>Cari penginapan<br>berdasarkan kebutuhanmu.</h1>
+
+                    <form action="">
+                        <input type="text" class="form-control mt-3" placeholder="cth. hotel palembang, Amaris hotel">
+                        <input type="submit" value="Jelajahi" class="btn btn-primary mt-3">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- form-jelajahi -->
+
+    <!-- hotel -->
+    <section id="hotel">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h5>Tempat Rekomendasi</h5>
+                    <p>Cari penginapan terbaik dimanapun atau disekitarmu.</p>
+                </div>
+                <div class="col-lg-6">
+                    <a class="more" href="./booking-page.html">Lihat lainnya</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="./assets/hotel1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Amaris Hotel Palembang</h5>
+                            <p class="card-text">Jalan Inspektur Marzuki</p>
+                            <h4 class="text-primary">200k<small>/malam</small></h4>
+                            <a href="./detail-page.html" class="btn btn-primary">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="./assets/hotel2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Arista Hotel Palembang</h5>
+                            <p class="card-text">Jalan Kapten A. Rivai</p>
+                            <h4 class="text-primary">200k<small>/malam</small></h4>
+                            <a href="./detail-page.html" class="btn btn-primary">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="./assets/hotel3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">The ALTS Hotel Palembang</h5>
+                            <p class="card-text">Jalan Rajawali</p>
+                            <h4 class="text-primary">200k<small>/malam</small></h4>
+                            <a href="./detail-page.html" class="btn btn-primary">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="./assets/hotel4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Beston Hotel Palembang</h5>
+                            <p class="card-text">Jalan Jendral Sudirman</p>
+                            <h4 class="text-primary">200k<small>/malam</small></h4>
+                            <a href="./detail-page.html" class="btn btn-primary">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hotel -->
+
+    <!-- footer -->
+    <footer>
+        <h6>&copy; Copyright Reserved, Telnest 2023</h6>
+    </footer>
+    <!-- footer -->
+</body>
+
+</html>

@@ -1,0 +1,225 @@
+/* navbar */
+.navbar-brand img {
+    width: 120px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px;
+}
+
+.navbar-nav .btn {
+    width: 130px;
+}
+
+/* sudah login */
+#logged .navbar-brand img {
+    width: 120px;
+}
+
+#logged .navbar-nav {
+    margin-left: 0;
+}
+
+#logged .navbar-nav .nav-link {
+    margin-right: 20px;
+}
+
+#logged .dropdown {
+    margin-left: auto;
+}
+
+#logged .dropdown .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* navbar */
+
+/* hero */
+#hero .deskripsi {
+    margin-top: 150px;
+}
+
+#hero .deskripsi p {
+    width: 400px;
+}
+#hero img {
+    width: 100%;
+}
+/* hero */
+
+/* hotel */
+#hotel {
+    margin-top: 100px;
+}
+
+#hotel .more {
+    display: flex;
+    justify-content: end;
+}
+
+#hotel .card {
+    width: 100%;
+}
+
+#hotel .card small {
+    color: black;
+    font-weight: normal;
+    font-size: 16px;
+} 
+
+#hotel .card .btn {
+    width: 100%;
+}
+/* hotel */
+
+/* kota */
+#kota {
+    margin-top: 100px;
+}
+
+#kota .more {
+    display: flex;
+    justify-content: end;
+}
+
+#kota .card {
+    width: 100%;
+    border: none;
+}
+ 
+#kota .card .card-title {
+    position: absolute;
+    bottom: 15px;
+}
+/* kota */
+
+/* promo */
+#promo img {
+    margin-top: 100px;
+    width: 100%;
+}
+/* promo */
+
+/* artikel */
+#artikel {
+    margin-top: 100px;
+}
+
+#artikel img {
+    width: 100%;
+}
+
+#artikel .deskripsi {
+    margin-top: 300px;
+}
+#artikel .deskripsi img {
+    width: 350px;
+}
+/* artikel */
+
+/* footer */
+footer {
+    margin-top: 100px;
+    background-color: #222;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* footer */
+
+/* daftar */
+#daftar {
+    margin-top: 50px;
+}
+
+#daftar h1 {
+    margin-top: 75px;
+}
+
+#daftar img {
+    width: 100%;
+}
+
+#daftar form label {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#daftar .btn {
+    width: 130px;
+}
+/* daftar */
+
+/* login */
+#login {
+    margin-top: 50px;
+}
+
+#login h1 {
+    margin-top: 75px;
+}
+
+#login img {
+    width: 100%;
+}
+
+#login form label {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#login .btn {
+    width: 130px;
+}
+
+#login .forgot {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+}
+/* login */
+
+/* detail */
+.breadcrumb a {
+    display: flex;
+    align-items: center;
+}
+
+#detail .fasilitas h5 {
+    display: flex;
+    align-items: center;
+}
+/* detail */
+
+/* order */
+#order form label {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+/* order */
+
+/* sukses */
+#sukses .deskripsi {
+    margin-top: 100px;
+}
+#sukses .deskripsi img {
+    width: 150px;
+}
+#sukses .deskripsi .btn {
+    width: 50%;
+    margin-right: 20px;
+}
+#sukses img {
+    width: 100%;
+}
+/* sukses */
